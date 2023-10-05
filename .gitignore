@@ -1,0 +1,5 @@
+# Ignore application properites to avoid accidently pushing creds to commit history
+src/main/resources/application.properties
+
+.idea/*
+*/.DS_Store
