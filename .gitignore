@@ -1,5 +1,32 @@
-# Ignore application properites to avoid accidently pushing creds to commit history
-src/main/resources/application.properties
-
 .idea/*
 */.DS_Store
+
+# Ignore compiled Java classes and JAR files
+*.class
+*.jar
+
+# Ignore build output directories
+/target/
+/out/
+/build/
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+
+# Ignore generated documentation
+/doc/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore Maven-specific files
+/target/
+*.log
